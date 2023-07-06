@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI and Non-AI Skills</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ai_contribution.html">AI Contribution</a></li>
+            <li><a href="non_social_skills.html">Non-Social Skills</a></li>
+            <li><a href="resources.html">Resources</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Page -->
+    <div id="home">
+        <header>
+            <h1>Why AI/Robots and Non AI/Robot Skills are good for us</h1>
+        </header>
+        <section>
+            <h2>Section 1</h2>
+            <p>Our civilization has accomplished a lot thanks to AI. This site is focused to illustrate that also non-AI skills are also as important as AI skills in building an ecosystem that improves the quality of our society.</p>
+        </section>
+    </div>
+
+    <!-- AI Contribution Page -->
+    <div id="ai_contribution">
+        <h2>AI Contribution to Society</h2>
+        <textarea id="ai_contribution_text" rows="4" cols="50" readonly></textarea>
+        <br>
+        <label for="comment">What do you think about the contribution of AI to society?</label><br>
+        <textarea id="comment" rows="4" cols="50"></textarea><br>
+        <button id="submit_comment">Submit</button>
+    </div>
+
+    <!-- Importance of Non-Social Skills Page -->
+    <div id="non_social_skills">
+        <h2>Importance of Non-Social Skills</h2>
+        <textarea id="non_social_skills_text" rows="4" cols="50" readonly></textarea>
+    </div>
+
+    <!-- Resources Page -->
+    <div id="resources">
+        <h2>Resources that show the benefits of AI/Robotics</h2>
+        <ul>
+            <li><a href="https://www.roboticstomorrow.com/story/2018/08/7-advantages-of-robots-in-the-workplace/12342/"><img src="image1.jpg"></a></li>
+            <li><a href="https://business.esa.int/funding/invitation-to-tender/robotics-for-society"><img src="image2.jpg"></a></li>
+            <li><a href="https://www.futurelearn.com/info/courses/begin-robotics/0/steps/2845"><img src="image3.jpg"></a></li>
+            <li><a href="https://www.robots.com/articles/benefits-of-robots"><img src="image4.jpg"></a></li>
+            <li><a href="https://nbsl.org.uk/business-bullets/operations/202-the-benefits-of-robotic-automation-now-accessible-for-businesses-of-all-sizes"><img src="image5.jpg"></a></li>
+            <li><a href="https://robotnik.eu/what-are-the-benefits-advantages-of-robot"><img src="image6.jpg"></a></li>
+        </ul>
+    </div>
+
+    <script>
+        // Home Page
+        document.getElementById("home").querySelector("section").innerHTML += `
+            <textarea rows="4"
