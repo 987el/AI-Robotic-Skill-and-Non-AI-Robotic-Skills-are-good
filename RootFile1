@@ -1,0 +1,5 @@
+# Redirects for static files
+/* /:splat  200
+
+# Redirects for routes
+/*    /index.html    200
